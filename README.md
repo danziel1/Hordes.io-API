@@ -5,7 +5,9 @@ Unofficial API for hordes.io
 
 
 ```
-player = Player("danziel") # initialize the player
+import hordesAPI
+
+player = hordesAPI.Player("danziel") # initialize the player
 
 player.Name() # returns the player's name
 player.Class() # returns the player's class
@@ -23,7 +25,9 @@ player.Id() # returns the player's ID
 
 
 ```
-clan = Clan("Bed") # Initialize the clan with its name or tag however, it's better to use the tag
+import hordesAPI
+
+clan = hordesAPI.Clan("Bed") # Initialize the clan with its name or tag however, it's better to use the tag
 
 clan.NameToTag() # returns the clan's tag from its name
 clan.TagToName() # returns the clan's name from its tag
